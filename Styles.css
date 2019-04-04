@@ -9,14 +9,17 @@ body {
     text-align: left;
     background-color: #fff;
 }
+
  video {
- position:absolute;
+ margin-top: 300px
  z-index:-1;
- top:0;
- left:0;
  width:100%;
- height:100vh;
+ color: black;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
 }
+
 img {
   width: 100%;
   height: auto;
@@ -49,11 +52,9 @@ img {
   text-align: left;
 }
 
-p class="lead1 {
+.lead1 {
   font-weight: bold;
   text-decoration: underline;
-
-
 }
 ul{
   list-style: square;
@@ -63,5 +64,9 @@ ul{
 
 ol{
   text-align: left;
+}
 
+.header{
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
